@@ -43,3 +43,24 @@ body {
 	padding: 50px 10px 10px 10px;
 	margin: 0;
 }
+
+.info-bullets {
+}
+
+.info-bullets--item1 {
+	width: 600px;
+	text-align: center;
+	padding: 20px;
+}
+
+.info-bullets--item2 {
+	width: 600px;
+	text-align: center;
+	padding: 20px;
+}
+
+.info--item {
+	font-family: "Merienda", cursive;
+	font-size: 1.2rem;
+	color: white;
+}
