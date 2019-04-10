@@ -1,0 +1,45 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: radial-gradient(#191919, #0f0f0f 90%);
+}
+
+#img-container {
+	background-image: linear-gradient(#685fa0, #4c4675);
+	width: 100%;
+	height: 600px;
+	border: none;
+}
+
+.img_blackpanther {
+	width: 900px;
+	height: 600px;
+	border: none;
+}
+
+.header--text {
+	position: absolute;
+	left: 64rem;
+	top: 11rem;
+	font-size: 5rem;
+	font-family: "Merienda", cursive;
+}
+
+.header--div_purple {
+	width: 100%;
+	height: 0.1rem;
+	background-color: #685fa0;
+	border: none;
+}
+
+.info-header--text {
+	position: relative;
+	left: 34rem;
+	width: 350px;
+	display: inline-block;
+	font-family: "Merienda", cursive;
+	font-size: 2rem;
+	color: white;
+	padding: 50px 10px 10px 10px;
+	margin: 0;
+}
