@@ -4,7 +4,14 @@ body {
 	background: radial-gradient(#191919, #0f0f0f 90%);
 }
 
-#img-container {
+#img-caption {
+	padding-top: 0px;
+	margin-top: 0px;
+	font-size: 0.5rem;
+	color: gray;
+}
+
+.img-container {
 	background-image: linear-gradient(#685fa0, #4c4675);
 	width: 100%;
 	height: 600px;
@@ -13,15 +20,21 @@ body {
 
 .img_blackpanther {
 	width: 900px;
-	height: 600px;
+	height: auto;
+	max-height: 600px;
 	border: none;
+	position: relative;
+	left: 17rem;
+	max-width: 900px;
+	display: block;
 }
 
 .header--text {
 	position: absolute;
-	left: 64rem;
+	left: 0.7rem;
 	top: 11rem;
-	font-size: 5rem;
+	width: 2rem;
+	font-size: 4rem;
 	font-family: "Merienda", cursive;
 }
 
@@ -44,23 +57,46 @@ body {
 	margin: 0;
 }
 
-.info-bullets {
-}
-
 .info-bullets--item1 {
 	width: 600px;
-	text-align: center;
+	text-align: left;
 	padding: 20px;
+	position: relative;
+	left: 3rem;
+	line-height: 35px;
 }
 
 .info-bullets--item2 {
 	width: 600px;
-	text-align: center;
+	text-align: left;
 	padding: 20px;
+	position: relative;
+	left: 50rem;
+	top: -12.4rem;
+	line-height: 35px;
 }
 
 .info--item {
 	font-family: "Merienda", cursive;
 	font-size: 1.2rem;
 	color: white;
+}
+
+.info-link {
+	position: relative;
+	top: 10rem;
+	left: -16rem;
+	font-family: "Merienda", cursive;
+	color: white;
+	text-decoration: none;
+}
+
+.info-link:hover {
+	position: relative;
+	top: 10rem;
+	left: -17rem;
+	font-family: "Merienda", cursive;
+	font-size: 1.1rem;
+	color: white;
+	text-decoration: none;
 }
